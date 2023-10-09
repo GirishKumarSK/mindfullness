@@ -3,6 +3,9 @@
 # dependencies
 /node_modules
 /src/videos
+/src/logo.png
+/src/meditate.JPG
+/src/meditate2.JPG
 /.pnp
 .pnp.js
 
