@@ -1,0 +1,129 @@
+body{
+  background-color: #d5ccf8;
+}
+
+header{
+  
+  background-color:#a178ac;
+  position:absolute;
+  width:100%
+}
+.but{
+  text-align: right;
+}
+.but{
+  border-radius: 15px;
+  background-color: lightgreen;
+}
+.but:hover{
+background-color:lightgreen;
+}
+.but:active{
+  background-color:lightgreen;
+  box-shadow: 5px 5px greenyellow;
+  transform: translateY(4px) translateX(-4px)
+  }
+  .but {
+      display: inline-block;
+      border-radius: 4px;
+      background-color: #d7abdb;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 15px;
+      padding: 10px;
+      width: 80px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+    
+    .but span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .but span:after {
+      content:'replacement';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .but:hover span {
+      padding-right: 15px;
+    }
+    
+    .but:hover span:after{
+      opacity: 1;
+      right: 0;
+    }
+
+.image1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 100px;
+  display:none;
+
+}
+
+.cs{
+  font-family: 'Franklin Gothic Medium';
+  font-size: 1.2cm;
+  position: absolute;
+  top: 520px;
+  left: 240px;
+  animation: 2s anim-lineUp ease-out;
+  border-radius:20px;
+ color:#a178ac
+}
+.cs1{
+  font-family: 'Franklin Gothic Medium';
+  font-size: 0.5cm;
+  position: absolute;
+  top: 170px;
+  right: 240px;
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 5px;
+  row-gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #D5CCF8;
+}
+
+.grid-item {
+  background-color: rgba(100, 231, 220, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  position:relative;
+  border-radius:20px;
+}
+
+.grid-MVcontainer {
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color:#d5ccf8;
+  padding: 10px;
+}
+
+.grid-MVitem {
+  background-color: #d5ccf8;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  position:relative;
+  border-radius:20px;
+
+}
+
